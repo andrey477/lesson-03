@@ -7,9 +7,9 @@ const b = block('header')
 
 export const Header = () => (
   <header className={b()}>
-    <div className="menu-container">
-      <img src="/images/logo.svg" className={b('logo')} alt=""/>
-      <Navigation/>
-    </div>
+      <div className={b('container')}>
+        <img src="/images/logo.svg" className={b('logo')} alt="" />
+        <Navigation />
+      </div>
   </header>
 )

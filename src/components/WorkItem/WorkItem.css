@@ -1,0 +1,22 @@
+.work-item {
+    margin-bottom: 245px;
+
+    &__img {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+    }
+
+    &__title {
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: 0.5px;
+        color: #000;
+    }
+
+    &__desc {
+        line-height: 28px;
+        color: #000;
+    }
+}

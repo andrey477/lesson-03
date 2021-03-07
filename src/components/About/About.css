@@ -1,0 +1,47 @@
+.about {
+    position: relative;
+    margin-top: 365px;
+    width: 100%;
+    max-width: 595px;
+    margin-left: auto;
+    color: var(--color-black);
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        max-width: 611px;
+        max-height: 611px;
+        width: 50vw;
+        height: 50vw;
+        border-radius: 50%;
+        background-color: var(--color-pink);
+        top: -25%;
+        left: -60%;
+        /* transform: translate(50%, 50%); */
+    }
+
+    &__text {
+        position: relative;
+        font-size: 60px;
+        line-height: 80px;
+        z-index: 2;
+    }
+
+    &__title {
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+
+    }
+
+    &__line {
+        margin: 85px 0;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+}

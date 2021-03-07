@@ -1,0 +1,16 @@
+.work {
+    margin-top: 285px;
+    
+    &__title {
+        font-weight: 600;
+        font-size: 105px;
+        line-height: 125px;
+        color: var(--color-black);
+        margin-top: 0;
+    }
+}
+
+.work__container {
+    display: flex;
+    justify-content: space-between;
+}

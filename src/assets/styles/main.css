@@ -3,6 +3,9 @@
 :root {
   --font-family-inter: 'Inter', sans-serif;
   --color-black: #333333;
+  --color-pink: #F47C7F;
+  --color-yellow: #FFB400;
+  --color-footer: #1C1C1B;
 }
 
 body {
