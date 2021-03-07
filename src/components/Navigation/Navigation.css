@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    &__item {
+        margin-right: 40px;
+    }
+    &__link {
+        color: var(--color-black);
+        text-transform: uppercase;
+    }
+}
