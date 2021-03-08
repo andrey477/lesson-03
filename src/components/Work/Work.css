@@ -1,5 +1,7 @@
 .work {
-    margin-top: 285px;
+    width: 100%;
+    max-width: 1366px;
+    margin: 285px auto 0;
     
     &__title {
         font-weight: 600;
